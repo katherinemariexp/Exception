@@ -21,6 +21,9 @@ class Employee
         string hireDate;
         
     public:
+        class InvalidEmployeeNumber
+        {};
+        
         Employee()
         {
             employeeName = "";
